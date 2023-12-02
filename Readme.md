@@ -2,6 +2,7 @@
 <p align="center">
   <img width="200" src="https://ax.elective.repl.co/Resources/Elective.png">
 </p>
+<p align="center">TEmPTaTiON</p>
 
 ## Intro
 My Website -> https://ax.elective.repl.co
@@ -17,6 +18,6 @@ Name: Elective \
 Gender: M \
 Occupations: Game Developer | Website Developer | Gamer | Student \
 Organization: TeamORL | TeamDFSX \
-Favorite Songs: Sayonara Hatsukoi \
+Favorite Songs: Sayonara Hatsukoi | TEmPTaTiON (maimai) \
 Favorite Games: Arcaea | GTAV | Minecraft | osu! \
 Girl Friend: Devia
