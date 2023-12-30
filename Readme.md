@@ -8,7 +8,6 @@
 My Website -> https://ax.elective.repl.co
 
 ✦ Zetavers Co-Founder & Leader \
-✦ TeamORL Co-Founder & Leader \
 ✦ TeamDFSX Founder & Leader \
 ✦ Rhythm Game Player \
 ✦ Game / Website / Discord Bot Dev
@@ -17,7 +16,6 @@ My Website -> https://ax.elective.repl.co
 Name: Elective \
 Gender: M \
 Occupations: Game Developer | Website Developer | Gamer | Student \
-Organization: TeamORL | TeamDFSX \
+Organization: TeamDFSX \
 Favorite Songs: Sayonara Hatsukoi | TEmPTaTiON (maimai) \
-Favorite Games: Arcaea | GTAV | Minecraft | osu! \
-Girl Friend: Devia
+Favorite Games: Arcaea | GTAV | Phigros | Minecraft \
