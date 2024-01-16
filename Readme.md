@@ -1,21 +1,19 @@
 # Elective
 <p align="center">
-  <img width="200" src="https://ax.elective.repl.co/Resources/Elective.png">
+  <img width="150" src="https://avatars.githubusercontent.com/u/137693283?s=400&u=efc4c51fa493c42e69d239488722ba702d7dc2c6">
 </p>
-<p align="center">TEmPTaTiON</p>
+<p align="center">Elective.exe ended with crash code -1 :(</p>
 
 ## Intro
-My Website -> https://ax.elective.repl.co
-
 ✦ Zetavers Co-Founder & Leader \
-✦ TeamDFSX Founder & Leader \
 ✦ Rhythm Game Player \
-✦ Game / Website / Discord Bot Dev
+✦ Game Developer
+✦ Website Developer
 
 ## General Info
 Name: Elective \
 Gender: M \
 Occupations: Game Developer | Website Developer | Gamer | Student \
 Organization: TeamDFSX \
-Favorite Songs: Sayonara Hatsukoi | TEmPTaTiON (maimai) \
+Favorite Songs: Sayonara Hatsukoi | TECHNOPOLIS 2085  \
 Favorite Games: Arcaea | GTAV | Phigros | Minecraft \
