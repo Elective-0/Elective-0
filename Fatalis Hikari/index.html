@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Fatalis Hikari</title>
+    <link rel="icon" type="image/png" href="Resources/fatalishikari_icon.png">
+    <script>
+      function ex() {
+        window.location.href = "https://open.spotify.com/track/3EeUzXAj016Ehl6fkbYgov";
+      }
+    </script>
+    <style>
+      html {
+        height: 100%;
+        width: 100%;
+      }
+
+      body {
+        background-color: black;
+        margin: 0px;
+        font-family: system-ui;
+      }
+
+      a.block {
+        display: block;
+      }
+    </style>
+    <style>
+      #app {
+        margin: 8px;
+        background-color: #999999;
+      }
+
+      #frame {
+        padding: 8px;
+        background-color: #8700a9;
+        color: white;
+      }
+
+      #out-frame {
+        padding: 8px;
+        background-color: #360043;
+      }
+
+      #in-frame {
+        margin: 12px;
+        padding: 8px;
+        background-color: #1b0023;
+      }
+
+      #about-me {
+        margin-top: 4px;
+        margin-bottom: 4px;
+      }
+
+      #spotify {
+        margin-top: 4px;
+        margin-bottom: 4px;
+      }
+
+      a.fx {
+        color: white;
+        text-decoration: none;
+      }
+
+      a.fx:hover {
+        text-decoration: underline;
+      }
+
+      .btn-ex {
+        width: 225px;
+        height: 30px;
+        background-color: #8800a9;
+        color: white;
+        display: block;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        padding-block: 0px;
+        padding-inline: 0px;
+        border-width: 0px;
+      }
+
+      .btn-ex:hover {
+        background-color: #70008d;
+      }
+    </style>
+    <style>
+      #x1 {
+        display: flex;
+      }
+
+      #badge {
+        margin: 12px;
+        display: flex;
+        background-color: #1B0023;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+        <div id="frame">
+            <div id="header">
+              <img src="Resources/fatalishikari_header.png" width="100%">
+            </div>
+          <div id="out-frame">
+            <div id="x1">
+              <div id="badge">
+                <div id="active-dev">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.31471 2.66675L2.66663 4.31483V11.6853L4.31474 13.3334H11.6852L13.3333 11.6853V4.31483L11.6852 2.66675H4.31471ZM7.23876 10.9504H5.76363C5.76363 9.73022 4.77109 8.73768 3.55091 8.73768V7.26248C4.77109 7.26248 5.76363 6.26997 5.76363 5.04977H7.23876C7.23876 6.26036 6.64452 7.32728 5.74082 8.00008C6.64452 8.67295 7.23876 9.73982 7.23876 10.9504ZM12.4444 8.73768C11.2242 8.73768 10.2317 9.73022 10.2317 10.9504H8.75649C8.75649 9.73982 9.35083 8.67295 10.2545 8.00008C9.35083 7.32728 8.75649 6.26036 8.75649 5.04977H10.2317C10.2317 6.26997 11.2242 7.26248 12.4444 7.26248V8.73768Z" fill="#2EA967"/>
+                  </svg>
+                </div>
+                <div id="nitro">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 12C12.2091 12 14 10.2091 14 8C14 5.79086 12.2091 4 10 4C7.79086 4 6 5.79086 6 8C6 10.2091 7.79086 12 10 12Z" fill="white"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.47204 6.74925C1.75628 6.74925 1.99311 6.51714 1.99311 6.23851C1.99311 5.95989 1.75628 5.72774 1.47204 5.72774H1.18781C0.903566 5.72774 0.666626 5.95989 0.666626 6.23851C0.666626 6.51714 0.903566 6.74925 1.18781 6.74925H1.47204ZM12.2256 12.9255C14.9259 11.7181 16.0628 8.65325 14.8312 6.0992C13.9784 4.28816 12.1783 3.22014 10.2834 3.1272H4.93026C4.45649 3.1272 4.12485 3.49876 4.12485 3.9167C4.12485 4.381 4.50391 4.70609 4.93026 4.70609H6.30404C6.58827 4.70609 6.82509 4.93824 6.82509 5.21686C6.82509 5.49548 6.58827 5.72774 6.30404 5.72774H2.94059C2.65636 5.72774 2.41942 5.95989 2.41942 6.23851C2.41942 6.51714 2.65636 6.74925 2.94059 6.74925H5.35662C5.64085 6.74925 5.87768 6.98152 5.87768 7.26018C5.87768 7.53878 5.64085 7.77092 5.35662 7.77092H3.84061C3.55637 7.77092 3.31954 8.00305 3.31954 8.28172C3.31954 8.56032 3.55637 8.79258 3.84061 8.79258H4.88285C4.93026 9.34985 5.07238 9.90705 5.30921 10.4179C6.49357 12.9719 9.62016 14.0864 12.2256 12.9255ZM7.37729 9.46652C6.68943 7.99818 7.34623 6.26122 8.84416 5.58696C10.3421 4.9127 12.1141 5.55654 12.8019 7.02485C13.4898 8.49318 12.8331 10.2301 11.335 10.9044C9.83709 11.5787 8.06516 10.9349 7.37729 9.46652Z" fill="#4F5D7F"/>
+                    <path d="M11.2095 6.57763L12.1569 8.15655C12.2043 8.24935 12.2043 8.29581 12.1569 8.38868L11.2095 9.96755C11.1621 10.0604 11.0674 10.0604 11.02 10.0604H9.17238C9.07772 10.0604 9.03032 10.0139 8.98298 9.96755L8.03545 8.38868C7.98818 8.29581 7.98818 8.24935 8.03545 8.15655L8.98298 6.57763C9.03032 6.48479 9.12512 6.48479 9.17238 6.48479H11.02C11.1148 6.43831 11.1621 6.48479 11.2095 6.57763Z" fill="#C5CEDD"/>
+                  </svg>
+                </div>
+                <div id="boost">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.07995 3.86656L2.80661 4.42656C2.77479 4.45396 2.75515 4.49289 2.75203 4.53477C2.7489 4.57666 2.76254 4.61806 2.78995 4.64989C2.81735 4.68172 2.85628 4.70135 2.89816 4.70448C2.94005 4.7076 2.98145 4.69396 3.01328 4.66656L3.57328 4.39989C3.59407 4.38985 3.61686 4.38464 3.63995 4.38464C3.66303 4.38464 3.68583 4.38985 3.70661 4.39989L4.26661 4.66656C4.29552 4.68152 4.32844 4.6869 4.36061 4.68192C4.39278 4.67693 4.42253 4.66184 4.44554 4.63882C4.46856 4.6158 4.48365 4.58606 4.48864 4.55388C4.49363 4.52172 4.48825 4.4888 4.47328 4.45989L4.19995 3.86656C4.18999 3.84693 4.1848 3.82523 4.1848 3.80322C4.1848 3.78122 4.18999 3.75952 4.19995 3.73989L4.47328 3.17989C4.48825 3.15098 4.49363 3.11807 4.48864 3.0859C4.48365 3.05373 4.46856 3.02398 4.44554 3.00096C4.42253 2.97794 4.39278 2.96285 4.36061 2.95786C4.32844 2.95288 4.29552 2.95826 4.26661 2.97322L3.70661 3.23989C3.68583 3.24993 3.66303 3.25515 3.63995 3.25515C3.61686 3.25515 3.59407 3.24993 3.57328 3.23989L3.01328 2.97322C2.98437 2.95826 2.95145 2.95288 2.91929 2.95786C2.88712 2.96285 2.85737 2.97794 2.83435 3.00096C2.81133 3.02398 2.79624 3.05373 2.79125 3.0859C2.78627 3.11807 2.79165 3.15098 2.80661 3.17989L3.07995 3.73989C3.08991 3.75952 3.09509 3.78122 3.09509 3.80322C3.09509 3.82523 3.08991 3.84693 3.07995 3.86656Z" fill="#FFD836"/>
+                    <path d="M13.8934 6.09338L10.2201 4.94005L7.98673 1.80005L5.76008 4.94005L2.08008 6.09338L4.38008 9.18671L4.34008 13.0334L7.98673 11.8067L11.6401 13.0334L11.6001 9.18671L13.8934 6.09338Z" fill="#FFDEF9"/>
+                    <path d="M13.8934 6.09338L10.2201 4.94005L8.00007 1.80005L5.76008 4.94005L2.08008 6.09338L4.38008 9.18671L4.34008 13.0334L8.00007 11.8067L11.6534 13.0334L11.6134 9.18671L13.8934 6.09338ZM10.2601 8.19338L9.92673 8.64004V9.20004V10.7067L8.4934 10.2267L8.00007 10.0467L7.46673 10.2267L6.00008 10.7067V9.20004V8.66671L5.66674 8.22004L4.81341 6.98004L6.25341 6.52672L6.7934 6.36005L7.12007 5.90005L8.00007 4.66672L8.8734 5.89338L9.20007 6.34672L9.7334 6.51338L11.1734 6.96671L10.2601 8.19338Z" fill="#FF73FA"/>
+                    <path d="M7.98669 1.80005V4.68005L9.18669 6.36005L11.16 6.98004L13.8934 6.09338L10.22 4.94005L7.98669 1.80005Z" fill="#FFB0FF"/>
+                    <path d="M4.37997 9.18656L6.04663 8.63989L6.02663 10.7066L7.97996 10.0466V11.8066L4.33997 13.0332L4.37997 9.18656Z" fill="#E655D4"/>
+                    <path d="M9.92664 8.63989L11.6 9.18656L11.64 13.0332L9.94664 10.7066L9.92664 8.63989Z" fill="#FFB0FF"/>
+                    <path d="M12.6733 10.7601H12.68C12.842 10.7601 12.9733 10.6287 12.9733 10.4667V9.87341C12.9733 9.71141 12.842 9.58008 12.68 9.58008H12.6733C12.5113 9.58008 12.38 9.71141 12.38 9.87341V10.4667C12.38 10.6287 12.5113 10.7601 12.6733 10.7601Z" fill="#D4E4FF"/>
+                    <path d="M12.6733 13.1202H12.68C12.842 13.1202 12.9733 12.9889 12.9733 12.8269V12.2335C12.9733 12.0715 12.842 11.9402 12.68 11.9402H12.6733C12.5113 11.9402 12.38 12.0715 12.38 12.2335V12.8269C12.38 12.9889 12.5113 13.1202 12.6733 13.1202Z" fill="#D4E4FF"/>
+                    <path d="M12.0866 11.3535V11.3468C12.0866 11.1848 11.9553 11.0535 11.7933 11.0535H11.1999C11.0379 11.0535 10.9066 11.1848 10.9066 11.3468V11.3535C10.9066 11.5155 11.0379 11.6468 11.1999 11.6468H11.7933C11.9553 11.6468 12.0866 11.5155 12.0866 11.3535Z" fill="#D4E4FF"/>
+                    <path d="M14.4533 11.3535V11.3468C14.4533 11.1848 14.322 11.0535 14.16 11.0535H13.5666C13.4046 11.0535 13.2733 11.1848 13.2733 11.3468V11.3535C13.2733 11.5155 13.4046 11.6468 13.5666 11.6468H14.16C14.322 11.6468 14.4533 11.5155 14.4533 11.3535Z" fill="#D4E4FF"/>
+                    <path d="M9.18663 6.3599L6.04661 8.63992L5.64661 8.09325L8.79329 5.81323L9.18663 6.3599Z" fill="white"/>
+                    <path d="M11.16 6.9799L6.02673 10.7066V9.86656L10.3534 6.72656L11.16 6.9799Z" fill="white"/>
+                  </svg>
+                </div>
+                <div id="username">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="16" height="16" fill="url(#pattern0)"/>
+                    <defs>
+                      <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_3810_895" transform="scale(0.0138889)"/>
+                      </pattern>
+                      <image id="image0_3810_895" width="72" height="72" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAUbSURBVHgB7ZvNbttGEMdnSSWHXKreaitAmSew8wSVUDvX5g0ioXGudp+g1hMkudYyZD9B7WssQ+4TWH2CskDtBOihPOXQitzOsFJDyfqYWS4pOdgfYBg0hvTuX7O7M8MRgMPhcDgcDofDMQMFK+DxxVFdA2yDUltaqW0AXQUNAUyOLFQaQrSLlNa/4EAHf+zuXUHJlCZQKopSL3DCz/GyCmZE+HPmaX1alliFClTtd6uPkmQftD4Ac1HmEaokad88e3UCBVKYQI97nf0E4BDsCzNNoUJZF+irfjfw47iLS6kO5RImvt/40GiFYBEPLEJe48Xx9QrEIQL63xsXRwdgEWsetHl5/CPuNYewDih1ePvt922wgBWBNi87XTymm7BG4MRObnZetiAnuQVaR3HG2BAp1x7037JaT3EI3Aub6RhzYOxBo2P8DdwDtNY/vN/dMxqrkUB0lNOJAcXHOLaIMAR4ahICGC0xFKcP90ccokqxGRggFqj27riJvwLIT4g5VQOj4Ke4BtoF2E9AsZlJjCReYpu9zm9gQaB/cKJ/Pns1GF/XLo+vca/YtmU/h+ij7z+JGq2Ie4PIgyx6D2Qnm6J1ZNN+DtVHw6HIi0QCaU/nOjI/PUgN7vxNqao1+0UotS8xZwtE9Ryw5D0Aye/ZqwDLIouXi9R+IdXRXFiwBYrBakA44RHD4XDZZKX2C0mwcMe1rXANlVLfgRmRmpogXl/def6Mv3HtDaoHVNVkpSCsU4xcElXvg5xCajTT1N79tK0971pyD4UMnLIta4mlBXYDcJ94W7Q4BFYTB+jhA8k9MXNOXIHqYICnVABlITz2UdAtjh1LIHzYF2AACvsC3b8JBUIvBjBofC3+ELVieRBrk9YKj3cNJlRxb+hi9P0pD8I04XZ373B8uXR/W2Yfx2ZDU5oVR/GOeW0r/iGxJ/eKeEnAJ7UXEHCMrBbtOQyTJITJAdRt2tumdIHu5FQAWzbtbVOuQKvMwQzhCaQgBCusNAebJuQYsU4xBSrS8rMiUgmcgp/xAj+54xEYQswP+ZfYJ0lSH6VAYq9STIFYqcZG7+gERWIneOmDk6RVdGMBYZwGaX2O4cPzZWasJeZpEIXxRBw/uIISMG2D0QuS4yy8SBrkAlUqwwBKYKPXWeoFs/CZc2LXpDEa/gtka506w9rgeWmOFGM882Hq06bJeXNOJY49esHXhr1H0e3Oyy85hux6EG7S58J9qIpR8GucQHqBrnoOGbemE+nvOP5Z69mbv9ReyBnXkB0H+RpOIB8rrSJmoRY+ti3XcLQZikoKWdYoBwslG7ssksYCGBiyLjkYtetJ7EUCPaxU3oChF/nxg+n7tmzaMwmlsZlIoBDfSCqD176Eepj8/z6q1sca8hKPkNqzxiD0nvQeMKDW6/QNBxxirhABP5+S2i98Fh7tT0AI+5jPEvt+y7D9JQDZMS21nwe1vzTAAKNyB72pMF1qqwBjp7bp2xXjetANdWzdB5FwjKbdZUTuJs4aZvpamOmXBUb/p+939pqQAyttwOsokg1xCCsl1xsayDotN1pWFsQhrH5Xo3ZxdIApAvUQlVo3zhDpnHvONFYFIkYdsFThC6BEqNuDwg/bvQDWBRpD7XqjjrQAisW612QpTKAxBQpFEfbbj5gfSpoypRQu0BgqrlOXmulbiBHUjHWmPpevZM5j/KVe3NC/UWnlMW2OCGByZCG9bkIvGeDPr6v6Uq/D4XA4HA6HwzGTfwGwnHe599IzeQAAAABJRU5ErkJggg=="/>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div id="in-frame">
+              <div id="about-me">
+                <a>About Me</a>
+              </div>
+              <div id="spotify">
+                <a class="block">Listening to <strong>Spotify</strong></a>
+                <a class="block fx" href="https://open.spotify.com/track/3EeUzXAj016Ehl6fkbYgov">Testify</a>
+                <a>
+                  <a class="fx" href="https://open.spotify.com/artist/5ib0rtKCVwiHQKXA8YXWW4">void (Mournfinale)</a>
+                  <a>feat.</a>
+                  <a class="fx" href="https://open.spotify.com/artist/2ikYVmsfZPCWNZIirTpMIv">星熊南巫</a>
+                </a>
+                <a class="block">01:38 ⎯⎯⎯⎯⎯•⎯⎯⎯⎯ 03:30</a>
+                <button class="btn-ex" onclick="ex()">Play on Spotify</button>
+              </div>
+            </div>
+          </div>
+          <div id="copyright" style="text-align: center;">
+            <a>Copyright &copy; 2023-2024 Fatalis Hikari</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
